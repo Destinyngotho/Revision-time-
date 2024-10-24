@@ -1,0 +1,73 @@
+body{
+    background-color: indianred;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: black;
+}
+nav{
+    position: relative;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+.nav-links li{
+    margin-right: 15px;
+}
+.nav-links a{
+    text-decoration: none;
+    color:maroon;
+    padding: 10px;
+    font-size: larger;
+}
+.nav-links a:hover{
+    background-color: peachpuff;
+    border-radius: 15px;
+}
+.logo img{
+    height: 45px;
+    width: auto;
+    max-width: 100%;
+}
+.slideshow{
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+}
+.slideshow::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    animation: flower 15s infinite;
+    z-index: -1;
+}
+@keyframes flower{
+    0%{background-image: url(bbbbbhhhhhhhhhhhhhhhhhhiiiio.jpeg);}
+    33%{background-image: url(images.jpeg);}
+    66%{background-image: url(download\ \(1\).jpeg);}
+    100%{background-image: url(download\ \(2\).jpeg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
